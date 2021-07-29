@@ -6,7 +6,9 @@ const Container = styled.div`
 `;
 
 const Page404: React.FC = () => (
-  <Container />
+  <Container>
+    Page Not Found!
+  </Container>
 );
 
 export default Page404;
