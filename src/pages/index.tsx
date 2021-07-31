@@ -7,10 +7,13 @@ const Container = styled.div`
   
 `;
 
+const MainBanner = styled.div`
+
+`;
+
 const Main: React.FC = () => (
   <Layout>
     <Container>
-      <Header />
     </Container>
   </Layout>
 );

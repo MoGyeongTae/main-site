@@ -5,13 +5,23 @@ const Container = styled.div`
   height:50px;
   width:100%;
   background-color:#05181f;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:99;
+`;
+
+const HeaderMargin = styled.div`
+  height:50px;
+  width:100%;
 `;
 
 const Header: React.FC = () => {
   return (
-    <Container>
-
-    </Container>
+    <>
+      <Container />
+      <HeaderMargin />
+    </>
   )
 }
 
